@@ -7,23 +7,16 @@ It provides a lightweight, preprocessed subset of the *Animal Faces* dataset for
 ## Repository Contents
 
 ```
-├── animal_faces.pkl # Preprocessed image dataset for the assignment
+├── animal_faces.pkl.zip # Compressed preprocessed image dataset for the assignment
 ├── README.md # This file
 ```
 
 
-The file `animal_faces.pkl` includes grayscale, resized animal face images stored as NumPy arrays.  
-These data are required for both the instructor and student versions of the PCA assignment.
+The unzipped version of `animal_faces.pkl.zip` contains `animal_faces.pkl` which includes grayscale, resized animal face images stored as NumPy arrays. These data are required for both the instructor and student versions of the PCA assignment.
 
-## 
+## Usage
 
-Clone or download the repository:
-
-```bash
-git clone https://github.com/kvarada/EAAI26-PCA-assignment-data.git
-```
-
-Then place `animal_faces.pkl` in the expected directories of the assignment repository:
+Download `animal_faces.pkl.zip` and unzip it. Then place `animal_faces.pkl` in the expected directories of the assignment repository:
 
 ```bash
 solutions/data/animal_faces.pkl
